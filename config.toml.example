@@ -1,0 +1,13 @@
+[settings]
+api_key = "your_namesilo_api_key_here"
+domain = "example.com"
+host = "@"
+ttl = 7207
+
+[ip]
+ipv4 = true
+ipv6 = false
+
+[paths]
+config_dir = "/home/user/.namesilo-dns-updater"
+log_file = "/var/log/namesilo-ddns.log"

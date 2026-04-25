@@ -1,0 +1,13 @@
+[settings]
+api_key = "your_api_key"
+domain = "your_domain.tld"
+host = "your_subdomain"
+ttl = 3600 
+
+[ip]
+ipv4 = true
+ipv6 = false
+
+[paths]
+config_dir = "/home/[youruser]/.namesilo-dns-updater"
+log_file = "/var/log/namesilo-dns-updater.log"
